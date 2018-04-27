@@ -8,6 +8,7 @@ the 2048 game written in C
 #define SIZE 4
 
 //print the 4X4 board
+
 void printBoard(int board[SIZE][SIZE]){
     for(int j = 0; j < 4; j++){
         printf("*****************************\n");
@@ -63,6 +64,7 @@ int popup(int board[SIZE][SIZE]){
 }
 
 //makes the beginning board with 2 numbers
+
 void initBoard(int board[SIZE][SIZE]){
     int count = 0;
     while (count < 2)
