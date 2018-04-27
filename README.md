@@ -1,6 +1,6 @@
 # 2048game
 the 2048 game written in C
-
+*updated: there's somthing wrong with the layout so you'll have to press the "raw" button to see the code before I figure it out.
 
 #include <stdio.h>
 #include <stdlib.h>
